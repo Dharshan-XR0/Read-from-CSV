@@ -22,17 +22,12 @@ Print the output.
 To write a python program for reading content from a CSV file.
 Developed by:  DHARSHAN V
 Register Number: 22003103
-
-```
-
-```python
 import pandas as pd
 df=pd.read_csv('Downloads/nba.csv')
 print(df.head(10))
 print(df.tail())
 print("rows",len(df.axes[0]))
 print("columns",len(df.axes[1]))
-
 ```
 
 ## OUTPUT:
